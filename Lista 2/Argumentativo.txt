@@ -1,0 +1,8 @@
+a.  "Bom dia" => String
+b.  3 => int
+c.  235.13 => double
+d.  true => boolean
+e.  -135 => int
+f.  256.23F => float
+g.  'A' => char
+h.  6463275245745L => long

@@ -1,0 +1,21 @@
+10 - Alternativa a
+
+11 - javac
+
+12 - java
+
+13 - .class
+
+14 - 3 arquivos serão gerados
+
+15 - -version
+
+16 - Alternativa e public static void main(String[] args)
+
+17 - Alternativa b
+
+18 - \n
+
+19 - //, /* e */
+
+20 - Fatec e Livros
