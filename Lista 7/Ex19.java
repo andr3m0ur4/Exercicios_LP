@@ -4,22 +4,19 @@ public class Ex19 {
     public static void main(String[] args) {
         
         Scanner entrada = new Scanner(System.in);
-        String palavra = entrada.nextLine();
-        System.out.print("Digite a segunda frase: ");
-        String frase2 = entrada.nextLine();
-        boolean flag = false;
+        
+        System.out.print("Digite a palavra: ");
+        String palavra = entrada.next();
+        String novaPalavra = "";
         entrada.close();
-
-        if (frase1.length() == frase2.length()) {
-            for (int contador = 0; contador < frase1.length(); contador++) {
-                if (frase1.charAt(contador) != frase2.charAt(contador)) {
-                    flag = true;
-                    break;
-                }
+        
+        for (int contador = 0; contador < palavra.length(); contador++) {
+            if (frase1.charAt(contador) != frase2.charAt(contador)) {
+                flag = true;
+                break;
             }
-        } else {
-            flag = true;
         }
+        
         
         if (!flag) {
             System.out.println("As frases sao iguais");
