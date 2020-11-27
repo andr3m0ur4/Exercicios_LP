@@ -10,18 +10,14 @@ public class Ex19 {
         String novaPalavra = "";
         entrada.close();
         
-        for (int contador = 0; contador < palavra.length(); contador++) {
-            if (frase1.charAt(contador) != frase2.charAt(contador)) {
-                flag = true;
-                break;
-            }
+        for (int contador = palavra.length() - 1; contador >= 0; contador--) {
+            novaPalavra += palavra.charAt(contador);
         }
         
-        
-        if (!flag) {
-            System.out.println("As frases sao iguais");
+        if (palavra.equals(novaPalavra)) {
+            System.out.println("É um palíndromo");
         } else {
-            System.out.println("As frases nao sao iguais");
+            System.out.println("Não é um palíndromo");
         }
     }
 }
